@@ -59,6 +59,10 @@ curl
 git
 ```
 
+### Config [postinstallscript.sh](./postinstallscript.sh)
+
+You can add your custom script to run when build docker image.
+
 ## Q&A
 
 If you have any use problems, please contact to <simonlee235@gmail.com>.
