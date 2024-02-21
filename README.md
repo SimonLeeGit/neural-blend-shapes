@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python->=3.8-Blue?logo=python)  ![Pytorch](https://img.shields.io/badge/PyTorch->=1.8.0-Red?logo=pytorch)
 ![Blender](https://img.shields.io/badge/Blender-%3E=2.8-Orange?logo=blender)
+![Docker](https://img.shields.io/badge/docker-gray?logo=docker)
 
 This repository provides an end-to-end library for automatic character rigging, skinning, and blend shapes generation, as well as a visualization tool. It is based on our work [Learning Skeletal Articulations with Neural Blend Shapes](https://peizhuoli.github.io/neural-blend-shapes/index.html) that is published in SIGGRAPH 2021.
 
@@ -24,6 +25,8 @@ Or you may install the following packages (and their dependencies) manually:
 - chumpy
 
 Note the provided environment only includes the PyTorch CPU version for compatibility consideration.
+
+If you want to use docker as your development environment, please follow this tutorial: [docker support](./docker/README.md)
 
 ## Quick Start
 
