@@ -10,8 +10,11 @@ ID=$(docker run \
     --ipc=host \
     --ulimit memlock=-1 \
     --ulimit stack=67108864 \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
     -v $PWD:/workspace \
     -w /workspace \
+    $(cat $WORK_DIR/ports.txt) \
     $TAG)
 
 docker logs $ID
